@@ -1,0 +1,26 @@
+# Arduino Libraries for ESP32 Facial Recognition Attendance Tracker
+
+# Core Libraries
+Arduino-ESP32 (2.0.5 or above)
+ESP32-Camera (2.0.0 or above)
+
+# Communication and Data Handling
+ArduinoJson (6.19.4 or above)
+WiFi (2.0.0 or above)
+WebServer (2.0.0 or above)
+SPIFFS (2.0.0 or above)
+
+# Face Detection and Recognition Libraries
+ESP-WHO (0.1.0 or above)
+JPEGDEC (1.2.8 or above)
+esp32-camera-face-recognition-arduino (1.0.0 or above)
+
+# Time Handling
+NTPClient (3.2.0 or above)
+
+# Installation Instructions:
+# 1. In the Arduino IDE, go to Sketch > Include Library > Manage Libraries
+# 2. Search for each library listed above and install the required version
+# 3. For ESP32 board support, add the following URL to Additional Boards Manager URLs in Preferences:
+#    https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+# 4. Go to Tools > Board > Boards Manager and install the ESP32 board support 
